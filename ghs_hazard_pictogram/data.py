@@ -1,3 +1,7 @@
+"""
+GHS Hazard pictogram data
+"""
+
 GHS_HAZARDS = [
     {
         'code': 'GHS01',

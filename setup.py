@@ -4,13 +4,13 @@ import subprocess
 from datetime import date
 from setuptools import setup, find_packages
 
-with open("ghs_hazard_pictograms/README.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
-module = 'ghs_hazard_pictograms'
+module = 'ghs_hazard_pictogram'
 
 setup(
-    name='ghs_hazard_pictograms',
+    name='ghs_hazard_pictogram',
     description='GHS hazard descriptions and pictograms.',
     python_requires='>3.7.0',
     version='0.1.0',
@@ -35,6 +35,6 @@ setup(
         "Topic :: Scientific/Engineering :: Chemistry"
     ],
     py_modules=[
-        'ghs_hazard_pictograms',
+        'ghs_hazard_pictogram',
     ],
 )
